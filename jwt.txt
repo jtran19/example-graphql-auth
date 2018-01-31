@@ -1,0 +1,7 @@
+JWT Tokens for this example:
+
+Director Fury (has authenticated and classified:read access)
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRpcmVjdG9yIEZ1cnkiLCJzY29wZXMiOlsiY2xhc3NpZmllZDpyZWFkIl0sImlhdCI6MTUxNzQzMzY4MH0.PjFpYoDmNXDERznNhVrXUwqFRSsKm3j5-RXCnxCKZ0g
+
+SHIELD Agent (has authenticated access)
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNISUVMRCBBZ2VudCIsInNjb3BlcyI6W10sImlhdCI6MTUxNzQzMzY4MH0.gpQT65DZM7C2aig5mZ_zKbdpSRUC9_BgIdm2GI9SA0k
