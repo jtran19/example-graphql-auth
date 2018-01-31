@@ -17,7 +17,9 @@ graphQLServer.use('/', (req, res, next) => {
       if (req.headers.authorization) {
         const authParts = req.headers.authorization.split(' ');
         if (authParts && authParts.length > 1) {
-          const jwtAuth = jwt.verify(authParts[1], 'jarvis1');
+          const jwtAuth = jwt.verify(authParts[1], 'jarvis1', {
+            ignoreExpiration: true,
+          });
           // jwt = {username: '', scopes: ['level1:read', 'level2:read']}
           console.log('jwtauth: ', jwtAuth);
           req.auth = jwtAuth;
