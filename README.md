@@ -1,4 +1,5 @@
-# example-graphql-auth
+Example GraphQL Auth
+--------------------
 
 Example GraphQL endpoint showing an implementation of protected fields.
 
