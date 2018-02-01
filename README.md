@@ -1,7 +1,7 @@
 Example GraphQL Auth
 --------------------
 
-Example GraphQL endpoint showing an implementation of protected fields.
+Example GraphQL endpoint showing an implementation of protected fields.  This solution is a mashup of ideas [apollo-errors](https://github.com/thebigredgeek/apollo-errors) (to return useful errors), [apollo-resolvers](https://github.com/thebigredgeek/apollo-resolvers) (to stack resolvers in a heirarchy), and [graphql-auth](https://github.com/chenkie/graphql-auth) (for an example of attaching resolvers to a GraphQL schema).
 
 Usage
 -----
