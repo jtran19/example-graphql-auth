@@ -5,6 +5,8 @@ Example GraphQL endpoint showing an implementation of protected fields.
 
 Usage
 -----
+    git clone https://github.com/jtran19/example-graphql-auth.git
+    cd example-graphql-auth
     yarn start
 
 Point GraphiQL at http://localhost:4009/graphql and set the authorization header to one of the JWT tokens in jwt.txt.
